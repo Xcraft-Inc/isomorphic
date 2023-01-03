@@ -1,9 +1,6 @@
 
 var Call = (Function.prototype.call).bind(Function.prototype.call);
 
-var Map = global.Map || require("native-map");
-var Set = global.Set;
-
 var ArraySort = Array.prototype.sort;
 var ArrayMap = Array.prototype.map;
 var MapGet = Map.prototype.get;

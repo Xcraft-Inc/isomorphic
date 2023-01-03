@@ -2,8 +2,6 @@
 var I = require("immutable");
 var Types = require("./types");
 var ImmutableTypeStart = Types.ImmutableTypeStart;
-var Set = global.Set;
-var Map = global.Map;
 
 // Returns a deserialized object.
 // Expects a serialized object and an options object.
