@@ -1,6 +1,6 @@
 {
-  "name": "@isomorphic/serialize",
-  "version": "0.0.5-beta",
+  "name": "xcraft-isomorphic-serialize",
+  "version": "0.0.6",
   "description": "",
   "main": "./isomorphic-serialization",
   "runkitExampleFilename": "runkit-example.js",
@@ -9,11 +9,8 @@
   },
   "author": "Francisco Ryan Tolmasky I",
   "license": "MIT",
-  "engines": {
-    "node": "4.x.x"
-  },
   "dependencies": {
-    "immutable": "^3.6.2"
+    "immutable": "4.0.0-rc.14"
   },
   "devDependencies": {
     "ava": "^0.23.0"
